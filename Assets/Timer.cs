@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 public class Timer : MonoBehaviour
 {
     TextMeshProUGUI tm;
@@ -20,9 +21,9 @@ public class Timer : MonoBehaviour
         time -= Time.deltaTime;
         tm.text = time.ToString("#.00") + "s";
 
-        if (time <= 0) { 
-        
-            //game over scene
+        if (time <= 0) {
+
+            SceneManager.LoadScene(2);
         
         }
 
