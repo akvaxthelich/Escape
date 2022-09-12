@@ -6,8 +6,8 @@ public class FPSCamera : MonoBehaviour
 {
     public GameObject cc; //ref character controller for rotation about y axis
 
-    float _senseX = 400;
-    float _senseY = 400; //default sense to 100 for both. may change later
+    float _senseX = 350;
+    float _senseY = 350; //default sense to 100 for both. may change later
 
     float xRotation;
     float yRotation;

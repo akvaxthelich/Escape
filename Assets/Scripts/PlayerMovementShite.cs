@@ -12,7 +12,7 @@ public class PlayerMovementShite : MonoBehaviour
     public float jumpHeight;
     bool _onGround;
     float _maxDist = 0.75f;
-    float _sphRadius = 0.5f;
+    float _sphRadius = 0.70f;
     int _groundLayerMask;
 
 
